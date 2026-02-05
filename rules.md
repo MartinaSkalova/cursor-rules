@@ -6,7 +6,6 @@
 - Prefer simplification over justifying redundancy
 - Keep explanations concise and actionable
 - Verify changes actually persisted before moving on
-- Ask for external library files (interfaces, classes) when needed to understand APIs or write correct code
 - Do not use git worktrees; work directly in the main repository
 - Verify code compiles after making changes before moving on
 - Study existing code patterns before implementing new features
