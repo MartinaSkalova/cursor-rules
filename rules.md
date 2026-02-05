@@ -12,7 +12,7 @@
 - Study existing code patterns before implementing new features
 - Check for and remove unused imports after refactoring
 - Consult `ai_ref` directory for documentation about how code should work
--Always check external library behavior before making assumptions. Don't ask—just inspect the code. Check the Gradle cache to understand external library behavior:
+- Always check external library behavior before making assumptions. Don't ask—just inspect the code. Check the Gradle cache to understand external library behavior:
 ```bash
 find ~/.gradle/caches -name "library-name*.jar" 2>/dev/null
 unzip -l /path/to/library.jar | grep ClassName
