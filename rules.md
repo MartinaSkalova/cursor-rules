@@ -12,6 +12,7 @@
 - Check for and remove unused imports after refactoring
 - Consult `ai_ref` directory for documentation about how code should work
 - always add Javadoc comments to public methods
+- when asked to write a PR description always check existing PR template, Only include major/significant changes (not minor fixes like Javadoc updates or small refactors), keep the description concise, check all boxes in the checklist, and provide as pastable markdown in a code block when requested, and fetch ticket number from the current branch
 - Always check external library behavior before making assumptions. Don't ask—just inspect the code. Check the Gradle cache to understand external library behavior:
 ```bash
 find ~/.gradle/caches -name "library-name*.jar" 2>/dev/null
