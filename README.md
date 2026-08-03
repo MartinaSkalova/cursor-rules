@@ -12,12 +12,12 @@ Portable instructions and skills for AI coding agents.
 Copy or symlink the directory into `~/.claude/skills/`:
 
 ```bash
-ln -s "$PWD/skills/monitor-review" ~/.claude/skills/monitor-review
+ln -s "$PWD/skills/monitor-triage" ~/.claude/skills/monitor-triage
 ```
 
-Invoke it as `/monitor-review <input>`, or let the agent select it when the task matches its description.
+Invoke it as `/monitor-triage <input>`, or let the agent select it when the task matches its description.
 
-## skills/monitor-review
+## skills/monitor-triage
 
 Triages a single Datadog monitor and returns one of four verdicts: ACTION REQUIRED, MONITOR DEFECT, NOISE, or INVESTIGATE FURTHER. Requires a pasted Slack alert message or a Datadog monitor URL. Needs a Datadog MCP server.
 

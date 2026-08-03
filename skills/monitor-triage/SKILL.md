@@ -1,5 +1,5 @@
 ---
-name: monitor-review
+name: monitor-triage
 description: Triage one specific Datadog monitor and decide whether it needs action, is noise, or is a miscalibrated monitor. Requires either a pasted Slack alert message or a Datadog monitor URL — do not invoke without one. Not for general observability, dashboard, or metric-exploration questions.
 argument-hint: "<slack-alert-message | datadog-monitor-url>"
 allowed-tools: Bash(python3 ${CLAUDE_SKILL_DIR}/scripts/calibrate.py *)
